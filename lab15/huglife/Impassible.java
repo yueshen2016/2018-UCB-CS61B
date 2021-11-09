@@ -1,4 +1,5 @@
 package huglife;
+
 import java.awt.Color;
 
 public class Impassible extends Occupant {
@@ -6,8 +7,10 @@ public class Impassible extends Occupant {
         super("impassible");
     }
 
-    /** Returns hardcoded black */
+    /**
+     * Returns hardcoded black
+     */
     public Color color() {
         return color(0, 0, 0);
-    }    
+    }
 }
